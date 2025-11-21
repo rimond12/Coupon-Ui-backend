@@ -30,6 +30,28 @@ const coupons = [
       minItemsCount: 1,
     },
   },
+  {
+    "code": "SUPER50",
+    "description": "Flat ₹50 off for new users on grocery items",
+    "discountType": "FLAT",
+    "discountValue": 50,
+    "maxDiscountAmount": null,
+    "startDate": "2025-11-22",
+    "endDate": "2025-12-31",
+    "usageLimitPerUser": 1,
+    "eligibility": {
+      "allowedUserTiers": ["NEW"],
+      "minLifetimeSpend": 0,
+      "minOrdersPlaced": 0,
+      "firstOrderOnly": true,
+      "allowedCountries": ["IN"],
+      "minCartValue": 300,
+      "applicableCategories": ["grocery"],
+      "excludedCategories": [],
+      "minItemsCount": 1
+    }
+  }
+
 ];
 
 // ------------------- CREATE COUPON -------------------
